@@ -6,45 +6,52 @@
     android:layout_height="match_parent"
     android:background="@color/background_black">
 
-    <ImageView
-        android:id="@+id/image_301"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/default_margin_16p"
-        android:layout_marginTop="@dimen/default_margin_16p"
-        android:layout_marginEnd="@dimen/default_margin_16p"
-        android:adjustViewBounds="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/error301" />
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text_301_body"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="@dimen/default_margin_16p"
-        android:layout_marginTop="@dimen/default_margin_16p"
-        android:layout_marginEnd="@dimen/default_margin_16p"
-        android:layout_marginBottom="@dimen/default_margin_16p"
-        android:text="@string/text_301_error"
-        android:textColor="#FFFFFF"
-        android:textSize="@dimen/dim_14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_301_head" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
 
-    <TextView
-        android:id="@+id/text_301_head"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/default_margin_16p"
-        android:layout_marginTop="@dimen/default_margin_16p"
-        android:text="@string/http_301"
-        android:textColor="#FFFFFF"
-        android:textSize="@dimen/dim_20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_301" />
+            <ImageView
+                android:id="@+id/image_301"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/error301" />
+
+            <TextView
+                android:id="@+id/text_301_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/http_301"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/dim_20sp"
+                android:layout_marginStart="@dimen/default_margin_16p"
+                android:layout_marginTop="@dimen/default_margin_16p"
+                app:layout_constraintTop_toBottomOf="@id/image_301"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/text_301_body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_301_error"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/dim_14sp"
+                android:layout_marginTop="@dimen/default_margin_16p"
+                android:layout_marginStart="@dimen/default_margin_16p"
+                android:layout_marginBottom="@dimen/default_margin_16p"
+                android:layout_marginEnd="@dimen/default_margin_16p"
+                app:layout_constraintTop_toBottomOf="@id/text_301_head"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

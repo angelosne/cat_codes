@@ -37,7 +37,7 @@
                 android:layout_marginStart="@dimen/default_margin_16p"
                 android:layout_marginTop="@dimen/default_margin_16p"
                 android:text="@string/http_302"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/text_white"
                 android:textSize="@dimen/dim_20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/image_302" />
@@ -51,7 +51,7 @@
                 android:layout_marginRight="@dimen/default_margin_16p"
                 android:layout_marginBottom="@dimen/default_margin_16p"
                 android:text="@string/text_302_error"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/text_white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
