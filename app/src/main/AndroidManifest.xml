@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Error302Activity" />
+        <activity android:name=".Error503Activity" />
+        <activity android:name=".Error301Activity">
+
+        </activity>
     </application>
 
 </manifest>

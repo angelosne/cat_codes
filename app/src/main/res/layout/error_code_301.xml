@@ -17,39 +17,43 @@
 
             <ImageView
                 android:id="@+id/image_301"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/error301" />
 
             <TextView
                 android:id="@+id/text_301_head"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin_16p"
+                android:layout_marginTop="@dimen/default_margin_16p"
+                android:layout_marginEnd="@dimen/default_margin_16p"
                 android:text="@string/http_301"
                 android:textColor="@color/text_white"
                 android:textSize="@dimen/dim_20sp"
-                android:layout_marginStart="@dimen/default_margin_16p"
-                android:layout_marginTop="@dimen/default_margin_16p"
-                app:layout_constraintTop_toBottomOf="@id/image_301"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image_301" />
 
             <TextView
                 android:id="@+id/text_301_body"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin_16p"
+                android:layout_marginTop="@dimen/default_margin_16p"
+                android:layout_marginEnd="@dimen/default_margin_16p"
+                android:autoLink="all"
                 android:text="@string/text_301_error"
                 android:textColor="@color/text_white"
                 android:textSize="@dimen/dim_14sp"
-                android:layout_marginTop="@dimen/default_margin_16p"
-                android:layout_marginStart="@dimen/default_margin_16p"
-                android:layout_marginBottom="@dimen/default_margin_16p"
-                android:layout_marginEnd="@dimen/default_margin_16p"
-                app:layout_constraintTop_toBottomOf="@id/text_301_head"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/text_301_head" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
