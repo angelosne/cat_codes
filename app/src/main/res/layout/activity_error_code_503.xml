@@ -28,7 +28,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/error503" />
+                app:srcCompat="@drawable/error503"
+                android:contentDescription="@string/error_503_error_text" />
 
             <TextView
                 android:id="@+id/text_503_head"

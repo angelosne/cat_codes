@@ -23,7 +23,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/error301" />
+                app:srcCompat="@drawable/error301"
+                android:contentDescription="@string/error_301_picture_text" />
 
             <TextView
                 android:id="@+id/text_301_head"

@@ -9,4 +9,7 @@
     <string name="go_to_error_302">Go to error 302</string>
     <string name="choose_an_error">Choose an error</string>
     <string name="main_menu_cat">main menu cat</string>
+    <string name="error_301_picture_text">a lying cat on the beach</string>
+    <string name="error_302_picture_text">a cat saved by a firewoman</string>
+    <string name="error_503_error_text">a lazy cat in an empty pc monitor</string>
 </resources>

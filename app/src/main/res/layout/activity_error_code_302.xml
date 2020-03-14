@@ -28,7 +28,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/error302" />
+                app:srcCompat="@drawable/error302"
+                android:contentDescription="@string/error_302_picture_text" />
 
             <TextView
                 android:id="@+id/text_302_head"
