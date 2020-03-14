@@ -27,21 +27,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        if (v.getId()==R.id.button_goto_301){
+        if (v.getId() == R.id.button_goto_301) {
             Intent intent = new Intent(this, Error301Activity.class);
-            intent.putExtra("message","Hello from menu");
             startActivity(intent);
-        }
-
-        if (v.getId()==R.id.button_goto_302){
+        } else if (v.getId() == R.id.button_goto_302) {
             Intent intent = new Intent(this, Error302Activity.class);
-            intent.putExtra("message","Hello from menu");
             startActivity(intent);
-        }
-
-        if (v.getId()==R.id.button_goto_503){
+        } else if (v.getId() == R.id.button_goto_503) {
             Intent intent = new Intent(this, Error503Activity.class);
-            intent.putExtra("message","Hello from menu");
             startActivity(intent);
         }
 
